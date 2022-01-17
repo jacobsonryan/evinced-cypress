@@ -4,9 +4,7 @@ context('Evinced Demo Site Tests', () => {
 	})
 
 	after(() => {
-		cy.evStop({ logIssues: true }).should((report) => {
-			console.log(report)
-		})
+		cy.logReport()
 	})
 
 	it('Visits Google', () => {
