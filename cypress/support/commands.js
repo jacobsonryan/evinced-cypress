@@ -1,8 +1,12 @@
-
 // Downloads HTML Report
 Cypress.Commands.add('logReport', () => {
+	let today = new Date()
+	let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate()
+	let time = today.getHours() + '-' + today.getMinutes() + '-' + today.getSeconds()
+	
 	cy.evStop({ logIssues: true }).should((report) => {
-		cy.writeFile('Report.json', report)
-		cy.writeFile('Report.html', '<!doctype html><html><head></head><body></body><script src="main.js"></script>')
+		cy.writeFile(`Report${date + '-' + time}.json`, report)
+		cy.writeFile(`Report${date + '-' + time}.html`, '<!doctype html><html><head></head><body></body><script src="main.js"></script>')
 	})
+
 })

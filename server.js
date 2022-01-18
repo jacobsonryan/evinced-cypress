@@ -1,25 +1,26 @@
 const express = require('express')
 const app = express()
-//const report = require('./Report.json')
 const cors = require('cors')
 const PORT = 3000
 const fs = require('fs')
+const path = require('path')
 
 let fileNames = fs.readdirSync('./')
+let counter = 0
 
+app.use(cors())
 fileNames.forEach(file => {
-	if(file.match(/\.[json]+$/i)) {
-
-	console.log(file)
+	if(file.match(/\.[json]+$/i) && file.startsWith('Report')) {
+		let parsedFile = path.parse(file).name
+		const sentFile = require('./' + file)
+		app.get(`/${parsedFile}`, (req, res) => {
+			res.send(sentFile)
+		})
+		counter++
 	}
 })
 
-app.use(cors())
-
-//app.get('/', (req, res) => {
-//	res.send(report)
-//})
-
 app.listen(PORT, () => {
-	console.log(`Listening on port ${PORT}`)
+	console.log(`Listening on port ${PORT}...`)
+	console.log(`${counter} file(s) being sent.`)
 }) 

@@ -1,0 +1,893 @@
+[
+  {
+    "id": "05ace47f-d26a-4956-91da-df697c8d103f",
+    "index": "I1",
+    "hidden": false,
+    "validation": {
+      "id": "3f2cf7cd-d5e3-4b88-bbd4-8ef23bc41867"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "AXE-ARIA-REQUIRED-ATTR",
+      "newId": "f7cdb4cf-cecb-4a4c-82fe-aff49f0c7257",
+      "name": "Aria-required-attr"
+    },
+    "elements": [
+      {
+        "id": "a3ad1fec-8adc-4b39-a252-f1138688d6ac",
+        "domSnippet": "<input class=\"gLFyf gsfi\" jsaction=\"paste:puy29d;\" maxlength=\"2048\" name=\"q\" type=\"text\" aria-autocomplete=\"both\" aria-haspopup=\"false\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" autofocus=\"\" role=\"combobox\" spellcheck=\"false\" title=\"Search\" value=\"\" aria-label=\"Search\" data-ved=\"0ahUKEwj1gIyy47v1AhVQm-AKHRaTD_QQ39UDCAY\">",
+        "componentId": "27f4926c",
+        "index": "S1",
+        "selector": ".gLFyf",
+        "pageUrl": "https://www.google.com/"
+      }
+    ],
+    "firstSeenTime": 1642525255736,
+    "lastSeenTime": 1642525255736,
+    "additionalInformation": {
+      "axeData": {
+        "id": "aria-required-attr",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ],
+        "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+        "help": "Required ARIA attributes must be provided",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "aria-required-attr",
+                "data": [
+                  "aria-expanded"
+                ],
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Required ARIA attribute not present: aria-expanded"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<input class=\"gLFyf gsfi\" jsaction=\"paste:puy29d;\" maxlength=\"2048\" name=\"q\" type=\"text\" aria-autocomplete=\"both\" aria-haspopup=\"false\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" autofocus=\"\" role=\"combobox\" spellcheck=\"false\" title=\"Search\" value=\"\" aria-label=\"Search\" data-ved=\"0ahUKEwj1gIyy47v1AhVQm-AKHRaTD_QQ39UDCAY\">",
+            "target": [
+              ".gLFyf"
+            ],
+            "failureSummary": "Fix any of the following:\n  Required ARIA attribute not present: aria-expanded"
+          }
+        ]
+      }
+    },
+    "summary": "Required ARIA attributes must be provided",
+    "description": "**Description:**\n\tEnsures elements with ARIA roles have all required ARIA attributes\n\t**Failure Summary:**\n\tFix at least one (1) of the following\n* Required ARIA attribute not present: aria-expanded",
+    "severity": {
+      "id": "CRITICAL",
+      "name": "Critical",
+      "newId": "3c68eb41-9227-481d-8eec-9dc8956b19c4"
+    },
+    "tags": [
+      {
+        "id": "WCAG-4.1.2",
+        "description": "4.1.2 Name, Role, Value  (Level A)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html"
+      },
+      {
+        "id": "WCAG-A"
+      },
+      {
+        "id": "WCAG2.0"
+      },
+      {
+        "id": "axe-cat.aria"
+      },
+      {
+        "id": "axe-wcag2a"
+      },
+      {
+        "id": "axe-wcag412"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/aria-required-attr",
+    "signature": "0b0eccae"
+  },
+  {
+    "id": "bb49e362-0eff-4916-b356-16061e33caf5",
+    "index": "I2",
+    "hidden": false,
+    "validation": {
+      "id": "994c6f68-b790-4658-abf3-48c84e7cfb10"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "AXE-COLOR-CONTRAST",
+      "newId": "41fbf576-e94e-4a71-ac4d-63f328e3a982",
+      "name": "Color-contrast"
+    },
+    "elements": [
+      {
+        "id": "491a8d65-6618-4918-a68c-8a187f7b7869",
+        "domSnippet": "<a class=\"pHiOh\" href=\"https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1\" ping=\"/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/intl/en_us/ads/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&amp;ved=0ahUKEwj1gIyy47v1AhVQm-AKHRaTD_QQkdQCCA8\">Advertising</a>",
+        "componentId": "4b8ec485",
+        "index": "S2",
+        "selector": ".AghGtd > .pHiOh:nth-child(1)",
+        "pageUrl": "https://www.google.com/"
+      },
+      {
+        "id": "3d373cc5-4007-49cf-924c-8ba4b9b74312",
+        "domSnippet": "<!--NOTE: snippet was trimmed due to its size--><div class=\"o3j99 c93Gbe\"><style>.c93Gbe{background:#f2f2f2}.uU7dJb{padding:15px 30px;border-bottom:1px solid #dadce0;font-size:15px;color:#70757a}.SSwjIe{padding:0 20px}.KxwPGc{display:flex;flex-wrap:wrap;justify-content:space-between}@media only screen and (max-width:1200px){.KxwPGc{justify-content:space-evenly}}.pHiOh{display:block;padding:15px;white-space:nowrap}a.pHiOh{color:#70757a}.ktLKi{white-space:nowrap;vertical-align:top}.Pb9hCb{height:14px;margin-right:6px}.ssOUyb{order:2}@media only screen and (max-width:1200px){.ssOUyb{order:0;width:100%;justify-content:center}}.waLeGd .ssOUyb{order:0;width:100%;justify-content:center}.AghGtd{justify-content:flex-start;min-width:30%;order:1}.iTjxkf{justify-content:flex-end;min-width:30%;order:3}</style><div jscontroller=\"NzU6V\" class=\"KxwPGc SSwjIe\" data-sfe=\"true\" data-sfsw=\"1200\" jsaction=\"rcuQ6b:npT2md\"><div class=\"KxwPGc AghGtd\"></div></div></div>",
+        "componentId": "f8d55976",
+        "index": "S3",
+        "selector": ".c93Gbe",
+        "pageUrl": "https://www.google.com/"
+      }
+    ],
+    "firstSeenTime": 1642525255736,
+    "lastSeenTime": 1642525255736,
+    "additionalInformation": {
+      "axeData": {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ],
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#70757a",
+                  "bgColor": "#f2f2f2",
+                  "contrastRatio": 4.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"o3j99 c93Gbe\"></div>",
+                    "target": [
+                      ".c93Gbe"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"pHiOh\" href=\"https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1\" ping=\"/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/intl/en_us/ads/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&amp;ved=0ahUKEwj1gIyy47v1AhVQm-AKHRaTD_QQkdQCCA8\"></a>",
+            "target": [
+              ".AghGtd > .pHiOh:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    },
+    "summary": "Elements must have sufficient color contrast",
+    "description": "**Description:**\n\tEnsures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds\n\t**Failure Summary:**\n\tFix at least one (1) of the following\n* Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    "severity": {
+      "id": "SERIOUS",
+      "name": "Serious",
+      "newId": "5bd03118-5883-4f43-8831-1544af3afe7c"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.4.3",
+        "description": "1.4.3 Contrast (Minimum)  (Level AA)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+      },
+      {
+        "id": "WCAG-AA"
+      },
+      {
+        "id": "WCAG2.0"
+      },
+      {
+        "id": "axe-cat.color"
+      },
+      {
+        "id": "axe-wcag143"
+      },
+      {
+        "id": "axe-wcag2aa"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/color-contrast",
+    "signature": "bb5dab31"
+  },
+  {
+    "id": "2b665206-0173-434f-a488-9303ac23b35d",
+    "index": "I3",
+    "hidden": false,
+    "validation": {
+      "id": "b267e0af-f5fb-4478-9f0d-a88555600ff7"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "AXE-COLOR-CONTRAST",
+      "newId": "41fbf576-e94e-4a71-ac4d-63f328e3a982",
+      "name": "Color-contrast"
+    },
+    "elements": [
+      {
+        "id": "a4fc83fe-675d-4fa0-b1e8-d9ba418e9f80",
+        "domSnippet": "<a class=\"pHiOh\" href=\"https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1\" ping=\"/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/services/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&amp;ved=0ahUKEwj1gIyy47v1AhVQm-AKHRaTD_QQktQCCBA\">Business</a>",
+        "componentId": "4b8ec485",
+        "index": "S4",
+        "selector": ".AghGtd > .pHiOh:nth-child(2)",
+        "pageUrl": "https://www.google.com/"
+      },
+      {
+        "id": "3d373cc5-4007-49cf-924c-8ba4b9b74312",
+        "domSnippet": "<!--NOTE: snippet was trimmed due to its size--><div class=\"o3j99 c93Gbe\"><style>.c93Gbe{background:#f2f2f2}.uU7dJb{padding:15px 30px;border-bottom:1px solid #dadce0;font-size:15px;color:#70757a}.SSwjIe{padding:0 20px}.KxwPGc{display:flex;flex-wrap:wrap;justify-content:space-between}@media only screen and (max-width:1200px){.KxwPGc{justify-content:space-evenly}}.pHiOh{display:block;padding:15px;white-space:nowrap}a.pHiOh{color:#70757a}.ktLKi{white-space:nowrap;vertical-align:top}.Pb9hCb{height:14px;margin-right:6px}.ssOUyb{order:2}@media only screen and (max-width:1200px){.ssOUyb{order:0;width:100%;justify-content:center}}.waLeGd .ssOUyb{order:0;width:100%;justify-content:center}.AghGtd{justify-content:flex-start;min-width:30%;order:1}.iTjxkf{justify-content:flex-end;min-width:30%;order:3}</style><div jscontroller=\"NzU6V\" class=\"KxwPGc SSwjIe\" data-sfe=\"true\" data-sfsw=\"1200\" jsaction=\"rcuQ6b:npT2md\"><div class=\"KxwPGc AghGtd\"></div></div></div>",
+        "componentId": "f8d55976",
+        "index": "S3",
+        "selector": ".c93Gbe",
+        "pageUrl": "https://www.google.com/"
+      }
+    ],
+    "firstSeenTime": 1642525255736,
+    "lastSeenTime": 1642525255736,
+    "additionalInformation": {
+      "axeData": {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ],
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#70757a",
+                  "bgColor": "#f2f2f2",
+                  "contrastRatio": 4.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"o3j99 c93Gbe\"></div>",
+                    "target": [
+                      ".c93Gbe"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"pHiOh\" href=\"https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1\" ping=\"/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/services/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&amp;ved=0ahUKEwj1gIyy47v1AhVQm-AKHRaTD_QQktQCCBA\"></a>",
+            "target": [
+              ".AghGtd > .pHiOh:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    },
+    "summary": "Elements must have sufficient color contrast",
+    "description": "**Description:**\n\tEnsures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds\n\t**Failure Summary:**\n\tFix at least one (1) of the following\n* Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    "severity": {
+      "id": "SERIOUS",
+      "name": "Serious",
+      "newId": "5bd03118-5883-4f43-8831-1544af3afe7c"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.4.3",
+        "description": "1.4.3 Contrast (Minimum)  (Level AA)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+      },
+      {
+        "id": "WCAG-AA"
+      },
+      {
+        "id": "WCAG2.0"
+      },
+      {
+        "id": "axe-cat.color"
+      },
+      {
+        "id": "axe-wcag143"
+      },
+      {
+        "id": "axe-wcag2aa"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/color-contrast",
+    "signature": "e6cd28f4"
+  },
+  {
+    "id": "6d3781fe-5f0a-4cb3-8d2b-7333edcce33c",
+    "index": "I4",
+    "hidden": false,
+    "validation": {
+      "id": "eab3a366-4272-4fa4-91cf-1a67bc8f435b"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "AXE-COLOR-CONTRAST",
+      "newId": "41fbf576-e94e-4a71-ac4d-63f328e3a982",
+      "name": "Color-contrast"
+    },
+    "elements": [
+      {
+        "id": "92f67c3b-4d05-4124-8a08-2363bf95d015",
+        "domSnippet": "<a class=\"pHiOh\" href=\"https://google.com/search/howsearchworks/?fg=1\"> How Search works </a>",
+        "componentId": "4b8ec485",
+        "index": "S5",
+        "selector": ".pHiOh:nth-child(3)",
+        "pageUrl": "https://www.google.com/"
+      },
+      {
+        "id": "3d373cc5-4007-49cf-924c-8ba4b9b74312",
+        "domSnippet": "<!--NOTE: snippet was trimmed due to its size--><div class=\"o3j99 c93Gbe\"><style>.c93Gbe{background:#f2f2f2}.uU7dJb{padding:15px 30px;border-bottom:1px solid #dadce0;font-size:15px;color:#70757a}.SSwjIe{padding:0 20px}.KxwPGc{display:flex;flex-wrap:wrap;justify-content:space-between}@media only screen and (max-width:1200px){.KxwPGc{justify-content:space-evenly}}.pHiOh{display:block;padding:15px;white-space:nowrap}a.pHiOh{color:#70757a}.ktLKi{white-space:nowrap;vertical-align:top}.Pb9hCb{height:14px;margin-right:6px}.ssOUyb{order:2}@media only screen and (max-width:1200px){.ssOUyb{order:0;width:100%;justify-content:center}}.waLeGd .ssOUyb{order:0;width:100%;justify-content:center}.AghGtd{justify-content:flex-start;min-width:30%;order:1}.iTjxkf{justify-content:flex-end;min-width:30%;order:3}</style><div jscontroller=\"NzU6V\" class=\"KxwPGc SSwjIe\" data-sfe=\"true\" data-sfsw=\"1200\" jsaction=\"rcuQ6b:npT2md\"><div class=\"KxwPGc AghGtd\"></div></div></div>",
+        "componentId": "f8d55976",
+        "index": "S3",
+        "selector": ".c93Gbe",
+        "pageUrl": "https://www.google.com/"
+      }
+    ],
+    "firstSeenTime": 1642525255736,
+    "lastSeenTime": 1642525255736,
+    "additionalInformation": {
+      "axeData": {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ],
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#70757a",
+                  "bgColor": "#f2f2f2",
+                  "contrastRatio": 4.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"o3j99 c93Gbe\"></div>",
+                    "target": [
+                      ".c93Gbe"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"pHiOh\" href=\"https://google.com/search/howsearchworks/?fg=1\"> How Search works </a>",
+            "target": [
+              ".pHiOh:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    },
+    "summary": "Elements must have sufficient color contrast",
+    "description": "**Description:**\n\tEnsures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds\n\t**Failure Summary:**\n\tFix at least one (1) of the following\n* Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    "severity": {
+      "id": "SERIOUS",
+      "name": "Serious",
+      "newId": "5bd03118-5883-4f43-8831-1544af3afe7c"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.4.3",
+        "description": "1.4.3 Contrast (Minimum)  (Level AA)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+      },
+      {
+        "id": "WCAG-AA"
+      },
+      {
+        "id": "WCAG2.0"
+      },
+      {
+        "id": "axe-cat.color"
+      },
+      {
+        "id": "axe-wcag143"
+      },
+      {
+        "id": "axe-wcag2aa"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/color-contrast",
+    "signature": "4b96dc90"
+  },
+  {
+    "id": "05304d87-e59b-4428-a02c-10a5e8098d76",
+    "index": "I5",
+    "hidden": false,
+    "validation": {
+      "id": "c46d1948-1eeb-4ecb-90c7-51cd801d4e63"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "AXE-COLOR-CONTRAST",
+      "newId": "41fbf576-e94e-4a71-ac4d-63f328e3a982",
+      "name": "Color-contrast"
+    },
+    "elements": [
+      {
+        "id": "08eacbbc-de3b-47bb-bb0c-854f8c782bd0",
+        "domSnippet": "<span class=\"ktLKi\">Carbon neutral since 2007</span>",
+        "componentId": "f72979d6",
+        "index": "S6",
+        "selector": ".ktLKi",
+        "pageUrl": "https://www.google.com/"
+      },
+      {
+        "id": "3d373cc5-4007-49cf-924c-8ba4b9b74312",
+        "domSnippet": "<!--NOTE: snippet was trimmed due to its size--><div class=\"o3j99 c93Gbe\"><style>.c93Gbe{background:#f2f2f2}.uU7dJb{padding:15px 30px;border-bottom:1px solid #dadce0;font-size:15px;color:#70757a}.SSwjIe{padding:0 20px}.KxwPGc{display:flex;flex-wrap:wrap;justify-content:space-between}@media only screen and (max-width:1200px){.KxwPGc{justify-content:space-evenly}}.pHiOh{display:block;padding:15px;white-space:nowrap}a.pHiOh{color:#70757a}.ktLKi{white-space:nowrap;vertical-align:top}.Pb9hCb{height:14px;margin-right:6px}.ssOUyb{order:2}@media only screen and (max-width:1200px){.ssOUyb{order:0;width:100%;justify-content:center}}.waLeGd .ssOUyb{order:0;width:100%;justify-content:center}.AghGtd{justify-content:flex-start;min-width:30%;order:1}.iTjxkf{justify-content:flex-end;min-width:30%;order:3}</style><div jscontroller=\"NzU6V\" class=\"KxwPGc SSwjIe\" data-sfe=\"true\" data-sfsw=\"1200\" jsaction=\"rcuQ6b:npT2md\"><div class=\"KxwPGc AghGtd\"></div></div></div>",
+        "componentId": "f8d55976",
+        "index": "S3",
+        "selector": ".c93Gbe",
+        "pageUrl": "https://www.google.com/"
+      }
+    ],
+    "firstSeenTime": 1642525255736,
+    "lastSeenTime": 1642525255736,
+    "additionalInformation": {
+      "axeData": {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ],
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#70757a",
+                  "bgColor": "#f2f2f2",
+                  "contrastRatio": 4.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"o3j99 c93Gbe\"></div>",
+                    "target": [
+                      ".c93Gbe"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"ktLKi\">Carbon neutral since 2007</span>",
+            "target": [
+              ".ktLKi"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    },
+    "summary": "Elements must have sufficient color contrast",
+    "description": "**Description:**\n\tEnsures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds\n\t**Failure Summary:**\n\tFix at least one (1) of the following\n* Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    "severity": {
+      "id": "SERIOUS",
+      "name": "Serious",
+      "newId": "5bd03118-5883-4f43-8831-1544af3afe7c"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.4.3",
+        "description": "1.4.3 Contrast (Minimum)  (Level AA)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+      },
+      {
+        "id": "WCAG-AA"
+      },
+      {
+        "id": "WCAG2.0"
+      },
+      {
+        "id": "axe-cat.color"
+      },
+      {
+        "id": "axe-wcag143"
+      },
+      {
+        "id": "axe-wcag2aa"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/color-contrast",
+    "signature": "fb820e2e"
+  },
+  {
+    "id": "038ba970-1178-4fb7-a659-6555c771f518",
+    "index": "I6",
+    "hidden": false,
+    "validation": {
+      "id": "9ee14209-90d8-4067-9fd6-6a323bd515b9"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "AXE-COLOR-CONTRAST",
+      "newId": "41fbf576-e94e-4a71-ac4d-63f328e3a982",
+      "name": "Color-contrast"
+    },
+    "elements": [
+      {
+        "id": "5f9a8b1a-5cce-4819-afa5-eab5ecebf6c2",
+        "domSnippet": "<a class=\"pHiOh\" href=\"https://policies.google.com/privacy?hl=en&amp;fg=1\" ping=\"/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/privacy%3Fhl%3Den%26fg%3D1&amp;ved=0ahUKEwj1gIyy47v1AhVQm-AKHRaTD_QQ8awCCBI\">Privacy</a>",
+        "componentId": "4b8ec485",
+        "index": "S7",
+        "selector": ".iTjxkf > .pHiOh:nth-child(1)",
+        "pageUrl": "https://www.google.com/"
+      },
+      {
+        "id": "3d373cc5-4007-49cf-924c-8ba4b9b74312",
+        "domSnippet": "<!--NOTE: snippet was trimmed due to its size--><div class=\"o3j99 c93Gbe\"><style>.c93Gbe{background:#f2f2f2}.uU7dJb{padding:15px 30px;border-bottom:1px solid #dadce0;font-size:15px;color:#70757a}.SSwjIe{padding:0 20px}.KxwPGc{display:flex;flex-wrap:wrap;justify-content:space-between}@media only screen and (max-width:1200px){.KxwPGc{justify-content:space-evenly}}.pHiOh{display:block;padding:15px;white-space:nowrap}a.pHiOh{color:#70757a}.ktLKi{white-space:nowrap;vertical-align:top}.Pb9hCb{height:14px;margin-right:6px}.ssOUyb{order:2}@media only screen and (max-width:1200px){.ssOUyb{order:0;width:100%;justify-content:center}}.waLeGd .ssOUyb{order:0;width:100%;justify-content:center}.AghGtd{justify-content:flex-start;min-width:30%;order:1}.iTjxkf{justify-content:flex-end;min-width:30%;order:3}</style><div jscontroller=\"NzU6V\" class=\"KxwPGc SSwjIe\" data-sfe=\"true\" data-sfsw=\"1200\" jsaction=\"rcuQ6b:npT2md\"><div class=\"KxwPGc AghGtd\"></div></div></div>",
+        "componentId": "f8d55976",
+        "index": "S3",
+        "selector": ".c93Gbe",
+        "pageUrl": "https://www.google.com/"
+      }
+    ],
+    "firstSeenTime": 1642525255736,
+    "lastSeenTime": 1642525255736,
+    "additionalInformation": {
+      "axeData": {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ],
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#70757a",
+                  "bgColor": "#f2f2f2",
+                  "contrastRatio": 4.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"o3j99 c93Gbe\"></div>",
+                    "target": [
+                      ".c93Gbe"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"pHiOh\" href=\"https://policies.google.com/privacy?hl=en&amp;fg=1\" ping=\"/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/privacy%3Fhl%3Den%26fg%3D1&amp;ved=0ahUKEwj1gIyy47v1AhVQm-AKHRaTD_QQ8awCCBI\">Privacy</a>",
+            "target": [
+              ".iTjxkf > .pHiOh:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    },
+    "summary": "Elements must have sufficient color contrast",
+    "description": "**Description:**\n\tEnsures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds\n\t**Failure Summary:**\n\tFix at least one (1) of the following\n* Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    "severity": {
+      "id": "SERIOUS",
+      "name": "Serious",
+      "newId": "5bd03118-5883-4f43-8831-1544af3afe7c"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.4.3",
+        "description": "1.4.3 Contrast (Minimum)  (Level AA)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+      },
+      {
+        "id": "WCAG-AA"
+      },
+      {
+        "id": "WCAG2.0"
+      },
+      {
+        "id": "axe-cat.color"
+      },
+      {
+        "id": "axe-wcag143"
+      },
+      {
+        "id": "axe-wcag2aa"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/color-contrast",
+    "signature": "5e2420d0"
+  },
+  {
+    "id": "09daf01a-f481-4351-aa97-53238f5519ae",
+    "index": "I7",
+    "hidden": false,
+    "validation": {
+      "id": "e8d9e893-0326-4be9-8783-40919dba1f8c"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "AXE-COLOR-CONTRAST",
+      "newId": "41fbf576-e94e-4a71-ac4d-63f328e3a982",
+      "name": "Color-contrast"
+    },
+    "elements": [
+      {
+        "id": "9dcca437-3795-4b69-9d74-2e081a3173f9",
+        "domSnippet": "<a class=\"pHiOh\" href=\"https://policies.google.com/terms?hl=en&amp;fg=1\" ping=\"/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/terms%3Fhl%3Den%26fg%3D1&amp;ved=0ahUKEwj1gIyy47v1AhVQm-AKHRaTD_QQ8qwCCBM\">Terms</a>",
+        "componentId": "4b8ec485",
+        "index": "S8",
+        "selector": ".iTjxkf > .pHiOh:nth-child(2)",
+        "pageUrl": "https://www.google.com/"
+      },
+      {
+        "id": "3d373cc5-4007-49cf-924c-8ba4b9b74312",
+        "domSnippet": "<!--NOTE: snippet was trimmed due to its size--><div class=\"o3j99 c93Gbe\"><style>.c93Gbe{background:#f2f2f2}.uU7dJb{padding:15px 30px;border-bottom:1px solid #dadce0;font-size:15px;color:#70757a}.SSwjIe{padding:0 20px}.KxwPGc{display:flex;flex-wrap:wrap;justify-content:space-between}@media only screen and (max-width:1200px){.KxwPGc{justify-content:space-evenly}}.pHiOh{display:block;padding:15px;white-space:nowrap}a.pHiOh{color:#70757a}.ktLKi{white-space:nowrap;vertical-align:top}.Pb9hCb{height:14px;margin-right:6px}.ssOUyb{order:2}@media only screen and (max-width:1200px){.ssOUyb{order:0;width:100%;justify-content:center}}.waLeGd .ssOUyb{order:0;width:100%;justify-content:center}.AghGtd{justify-content:flex-start;min-width:30%;order:1}.iTjxkf{justify-content:flex-end;min-width:30%;order:3}</style><div jscontroller=\"NzU6V\" class=\"KxwPGc SSwjIe\" data-sfe=\"true\" data-sfsw=\"1200\" jsaction=\"rcuQ6b:npT2md\"><div class=\"KxwPGc AghGtd\"></div></div></div>",
+        "componentId": "f8d55976",
+        "index": "S3",
+        "selector": ".c93Gbe",
+        "pageUrl": "https://www.google.com/"
+      }
+    ],
+    "firstSeenTime": 1642525255736,
+    "lastSeenTime": 1642525255736,
+    "additionalInformation": {
+      "axeData": {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ],
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#70757a",
+                  "bgColor": "#f2f2f2",
+                  "contrastRatio": 4.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"o3j99 c93Gbe\"></div>",
+                    "target": [
+                      ".c93Gbe"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"pHiOh\" href=\"https://policies.google.com/terms?hl=en&amp;fg=1\" ping=\"/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/terms%3Fhl%3Den%26fg%3D1&amp;ved=0ahUKEwj1gIyy47v1AhVQm-AKHRaTD_QQ8qwCCBM\">Terms</a>",
+            "target": [
+              ".iTjxkf > .pHiOh:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    },
+    "summary": "Elements must have sufficient color contrast",
+    "description": "**Description:**\n\tEnsures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds\n\t**Failure Summary:**\n\tFix at least one (1) of the following\n* Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    "severity": {
+      "id": "SERIOUS",
+      "name": "Serious",
+      "newId": "5bd03118-5883-4f43-8831-1544af3afe7c"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.4.3",
+        "description": "1.4.3 Contrast (Minimum)  (Level AA)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+      },
+      {
+        "id": "WCAG-AA"
+      },
+      {
+        "id": "WCAG2.0"
+      },
+      {
+        "id": "axe-cat.color"
+      },
+      {
+        "id": "axe-wcag143"
+      },
+      {
+        "id": "axe-wcag2aa"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/color-contrast",
+    "signature": "be1c692b"
+  },
+  {
+    "id": "7c694458-c0d1-458f-b96d-7f542a7b3e8c",
+    "index": "I8",
+    "hidden": false,
+    "validation": {
+      "id": "e08e10d2-0526-4f04-9ab4-71b7f82e3b60"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "AXE-COLOR-CONTRAST",
+      "newId": "41fbf576-e94e-4a71-ac4d-63f328e3a982",
+      "name": "Color-contrast"
+    },
+    "elements": [
+      {
+        "id": "9500779c-3aa9-410a-a1cf-131ab1471a79",
+        "domSnippet": "<button jsname=\"pzCKEc\" class=\"EzVRq\" aria-controls=\"dEjpnf\" aria-haspopup=\"true\" id=\"Mses6b\" jsaction=\"mousedown:lgs1Pb;FwYIgd;keydown:QXPedb\">Settings</button>",
+        "componentId": "0616e62f",
+        "index": "S9",
+        "selector": "#Mses6b",
+        "pageUrl": "https://www.google.com/"
+      },
+      {
+        "id": "3d373cc5-4007-49cf-924c-8ba4b9b74312",
+        "domSnippet": "<!--NOTE: snippet was trimmed due to its size--><div class=\"o3j99 c93Gbe\"><style>.c93Gbe{background:#f2f2f2}.uU7dJb{padding:15px 30px;border-bottom:1px solid #dadce0;font-size:15px;color:#70757a}.SSwjIe{padding:0 20px}.KxwPGc{display:flex;flex-wrap:wrap;justify-content:space-between}@media only screen and (max-width:1200px){.KxwPGc{justify-content:space-evenly}}.pHiOh{display:block;padding:15px;white-space:nowrap}a.pHiOh{color:#70757a}.ktLKi{white-space:nowrap;vertical-align:top}.Pb9hCb{height:14px;margin-right:6px}.ssOUyb{order:2}@media only screen and (max-width:1200px){.ssOUyb{order:0;width:100%;justify-content:center}}.waLeGd .ssOUyb{order:0;width:100%;justify-content:center}.AghGtd{justify-content:flex-start;min-width:30%;order:1}.iTjxkf{justify-content:flex-end;min-width:30%;order:3}</style><div jscontroller=\"NzU6V\" class=\"KxwPGc SSwjIe\" data-sfe=\"true\" data-sfsw=\"1200\" jsaction=\"rcuQ6b:npT2md\"><div class=\"KxwPGc AghGtd\"></div></div></div>",
+        "componentId": "f8d55976",
+        "index": "S3",
+        "selector": ".c93Gbe",
+        "pageUrl": "https://www.google.com/"
+      }
+    ],
+    "firstSeenTime": 1642525255736,
+    "lastSeenTime": 1642525255736,
+    "additionalInformation": {
+      "axeData": {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ],
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#70757a",
+                  "bgColor": "#f2f2f2",
+                  "contrastRatio": 4.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"o3j99 c93Gbe\"></div>",
+                    "target": [
+                      ".c93Gbe"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button jsname=\"pzCKEc\" class=\"EzVRq\" aria-controls=\"dEjpnf\" aria-haspopup=\"true\" id=\"Mses6b\" jsaction=\"mousedown:lgs1Pb;FwYIgd;keydown:QXPedb\">Settings</button>",
+            "target": [
+              "#Mses6b"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    },
+    "summary": "Elements must have sufficient color contrast",
+    "description": "**Description:**\n\tEnsures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds\n\t**Failure Summary:**\n\tFix at least one (1) of the following\n* Element has insufficient color contrast of 4.15 (foreground color: #70757a, background color: #f2f2f2, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1",
+    "severity": {
+      "id": "SERIOUS",
+      "name": "Serious",
+      "newId": "5bd03118-5883-4f43-8831-1544af3afe7c"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.4.3",
+        "description": "1.4.3 Contrast (Minimum)  (Level AA)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+      },
+      {
+        "id": "WCAG-AA"
+      },
+      {
+        "id": "WCAG2.0"
+      },
+      {
+        "id": "axe-cat.color"
+      },
+      {
+        "id": "axe-wcag143"
+      },
+      {
+        "id": "axe-wcag2aa"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/color-contrast",
+    "signature": "d6256c8e"
+  }
+]

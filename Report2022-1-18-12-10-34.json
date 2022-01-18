@@ -1,0 +1,214 @@
+[
+  {
+    "id": "a7158a9a-eb7a-4e2c-bd52-6dcf7b055754",
+    "index": "I1",
+    "hidden": false,
+    "validation": {
+      "id": "41b85edc-96f9-42ed-acdd-be0b49f6354c"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "AXE-DUPLICATE-ID",
+      "newId": "b995f1c2-8545-41f7-b300-98bf6ca8f865",
+      "name": "Duplicate-id"
+    },
+    "elements": [
+      {
+        "id": "9499623a-66de-4ab9-a72f-65c9e9741142",
+        "domSnippet": "<li class=\"scope try_exp\" id=\"video\"><a href=\"/videos?FORM=Z9LH1\" data-h=\"ID=HpApp,7808.1\" target=\"\" rel=\"noopener\">Videos</a></li>",
+        "componentId": "94942d01",
+        "index": "S1",
+        "selector": ".scope.try_exp:nth-child(2)",
+        "pageUrl": "https://www.bing.com/?toWww=1&redig=560261FB7E714F90B7F577EE7D636B42"
+      },
+      {
+        "id": "f101ff3d-e7a4-4076-8946-3c181397e3b4",
+        "domSnippet": "<li class=\"overflow_item try_exp\" id=\"video\" role=\"presentation\" aria-haspopup=\"false\" aria-expanded=\"\" aria-label=\"Videos\"><a href=\"/videos?FORM=Z9LH1\" data-h=\"ID=HpApp,7808.1\" target=\"\" rel=\"noopener\">Videos</a></li>",
+        "componentId": "55714b78",
+        "index": "S2",
+        "selector": "li[aria-label=\"Videos\"]",
+        "pageUrl": "https://www.bing.com/?toWww=1&redig=560261FB7E714F90B7F577EE7D636B42"
+      }
+    ],
+    "firstSeenTime": 1642525834650,
+    "lastSeenTime": 1642525834650,
+    "additionalInformation": {
+      "axeData": {
+        "id": "duplicate-id",
+        "impact": "minor",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ],
+        "description": "Ensures every id attribute value is unique",
+        "help": "id attribute value must be unique",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "duplicate-id",
+                "data": "video",
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"overflow_item try_exp\" id=\"video\" role=\"presentation\" aria-haspopup=\"false\" aria-expanded=\"\" aria-label=\"Videos\"><a href=\"/videos?FORM=Z9LH1\" data-h=\"ID=HpApp,7808.1\" target=\"\" rel=\"noopener\">Videos</a></li>",
+                    "target": [
+                      "li[aria-label=\"Videos\"]"
+                    ]
+                  }
+                ],
+                "impact": "minor",
+                "message": "Document has multiple static elements with the same id attribute: video"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "minor",
+            "html": "<li class=\"scope try_exp\" id=\"video\"><a href=\"/videos?FORM=Z9LH1\" data-h=\"ID=HpApp,7808.1\" target=\"\" rel=\"noopener\">Videos</a></li>",
+            "target": [
+              ".scope.try_exp:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: video"
+          }
+        ]
+      }
+    },
+    "summary": "id attribute value must be unique",
+    "description": "**Description:**\n\tEnsures every id attribute value is unique\n\t**Failure Summary:**\n\tFix at least one (1) of the following\n* Document has multiple static elements with the same id attribute: video",
+    "severity": {
+      "id": "MINOR",
+      "name": "Minor",
+      "newId": "4637208d-4f70-483d-b589-ff591c7130a0"
+    },
+    "tags": [
+      {
+        "id": "WCAG-4.1.1",
+        "description": "4.1.1 Parsing  (Level A)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/parsing.html"
+      },
+      {
+        "id": "WCAG-A"
+      },
+      {
+        "id": "WCAG2.0"
+      },
+      {
+        "id": "axe-cat.parsing"
+      },
+      {
+        "id": "axe-wcag2a"
+      },
+      {
+        "id": "axe-wcag411"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/duplicate-id",
+    "signature": "2f6f7e4c"
+  },
+  {
+    "id": "35b50ee7-44c0-402b-bfc1-39c05b3bf5b9",
+    "index": "I2",
+    "hidden": false,
+    "validation": {
+      "id": "1504de0d-9cf6-4567-bd32-3b3b563b1202"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "AXE-DUPLICATE-ID",
+      "newId": "b995f1c2-8545-41f7-b300-98bf6ca8f865",
+      "name": "Duplicate-id"
+    },
+    "elements": [
+      {
+        "id": "6a5ae8a4-438d-49ed-bc3a-93be0aad3a49",
+        "domSnippet": "<li class=\"scope try_exp\" id=\"shopping\"><a href=\"/shop?FORM=Z9LHS4\" data-h=\"ID=HpApp,12468.1\" target=\"\" rel=\"noopener\">Shopping</a></li>",
+        "componentId": "94942d01",
+        "index": "S3",
+        "selector": ".scope.try_exp:nth-child(3)",
+        "pageUrl": "https://www.bing.com/?toWww=1&redig=560261FB7E714F90B7F577EE7D636B42"
+      },
+      {
+        "id": "27d74a6a-4a27-4ecf-9cb1-22419c464b9f",
+        "domSnippet": "<li class=\"overflow_item try_exp\" id=\"shopping\" role=\"presentation\" aria-haspopup=\"false\" aria-expanded=\"\" aria-label=\"Shopping\"><a href=\"/shop?FORM=Z9LHS4\" data-h=\"ID=HpApp,12468.1\" target=\"\" rel=\"noopener\">Shopping</a></li>",
+        "componentId": "55714b78",
+        "index": "S4",
+        "selector": "li[aria-label=\"Shopping\"]",
+        "pageUrl": "https://www.bing.com/?toWww=1&redig=560261FB7E714F90B7F577EE7D636B42"
+      }
+    ],
+    "firstSeenTime": 1642525834650,
+    "lastSeenTime": 1642525834650,
+    "additionalInformation": {
+      "axeData": {
+        "id": "duplicate-id",
+        "impact": "minor",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ],
+        "description": "Ensures every id attribute value is unique",
+        "help": "id attribute value must be unique",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "duplicate-id",
+                "data": "shopping",
+                "relatedNodes": [
+                  {
+                    "html": "<li class=\"overflow_item try_exp\" id=\"shopping\" role=\"presentation\" aria-haspopup=\"false\" aria-expanded=\"\" aria-label=\"Shopping\"><a href=\"/shop?FORM=Z9LHS4\" data-h=\"ID=HpApp,12468.1\" target=\"\" rel=\"noopener\">Shopping</a></li>",
+                    "target": [
+                      "li[aria-label=\"Shopping\"]"
+                    ]
+                  }
+                ],
+                "impact": "minor",
+                "message": "Document has multiple static elements with the same id attribute: shopping"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "minor",
+            "html": "<li class=\"scope try_exp\" id=\"shopping\"><a href=\"/shop?FORM=Z9LHS4\" data-h=\"ID=HpApp,12468.1\" target=\"\" rel=\"noopener\">Shopping</a></li>",
+            "target": [
+              ".scope.try_exp:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Document has multiple static elements with the same id attribute: shopping"
+          }
+        ]
+      }
+    },
+    "summary": "id attribute value must be unique",
+    "description": "**Description:**\n\tEnsures every id attribute value is unique\n\t**Failure Summary:**\n\tFix at least one (1) of the following\n* Document has multiple static elements with the same id attribute: shopping",
+    "severity": {
+      "id": "MINOR",
+      "name": "Minor",
+      "newId": "4637208d-4f70-483d-b589-ff591c7130a0"
+    },
+    "tags": [
+      {
+        "id": "WCAG-4.1.1",
+        "description": "4.1.1 Parsing  (Level A)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/parsing.html"
+      },
+      {
+        "id": "WCAG-A"
+      },
+      {
+        "id": "WCAG2.0"
+      },
+      {
+        "id": "axe-cat.parsing"
+      },
+      {
+        "id": "axe-wcag2a"
+      },
+      {
+        "id": "axe-wcag411"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/duplicate-id",
+    "signature": "a6bfbd29"
+  }
+]

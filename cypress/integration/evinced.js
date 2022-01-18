@@ -8,6 +8,6 @@ context('Evinced Demo Site Tests', () => {
 	})
 
 	it('Visits Google', () => {
-		cy.visit('https://google.com')
+		cy.visit('https://bing.com')
 	})
 })
