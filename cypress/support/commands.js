@@ -5,8 +5,7 @@ Cypress.Commands.add('logReport', () => {
 	let time = today.getHours() + '-' + today.getMinutes() + '-' + today.getSeconds()
 	
 	cy.evStop({ logIssues: true }).should((report) => {
-		cy.writeFile(`Report${date + '-' + time}.json`, report)
-		cy.writeFile(`Report${date + '-' + time}.html`, '<!doctype html><html><head></head><body></body><script src="main.js"></script>')
+		cy.writeFile(`Report-${date + '-' + time}.json`, report)
+		cy.writeFile(`Report-${date + '-' + time}.html`, '<!doctype html><html><head><link rel="stylesheet" href="styles.css"></head><body></body><script src="main.js"></script>')
 	})
-
 })
