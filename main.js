@@ -9,6 +9,7 @@ fetch(`http://localhost:3000/${page}`)
 	.then(data => {
 		let issuesCount = document.createElement('p')
 		issuesCount.innerHTML = `Issues Count: ${data.length}` 
+		issuesCount.innerHTML += `<br>Page Url: ${data[0].elements[0].pageUrl}` 
 		document.body.appendChild(issuesCount)
 		let table = document.createElement('table')
 		
@@ -39,8 +40,10 @@ fetch(`http://localhost:3000/${page}`)
 			let tableRow = document.createElement('tr')
 			
 			let tableId = document.createElement('td')
-			let id = data[i].type.id.replaceAll('_', ' ').toUpperCase()
+			let id = data[i].type.id.replaceAll('_', ' ')
+			id = id.toLowerCase()
 			tableId.innerHTML = id
+			tableId.style.textTransform = 'capitalize'
 			tableRow.appendChild(tableId)
 
 			let tableImpact = document.createElement('td')

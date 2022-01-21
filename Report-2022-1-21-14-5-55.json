@@ -1,0 +1,345 @@
+[
+  {
+    "id": "d0fd5f9c-1a6e-48a3-a0a3-a9a69248bafb",
+    "index": "I1",
+    "hidden": false,
+    "validation": {
+      "id": "b270bf30-41f7-45c5-a3f4-b60cfb476696"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "WRONG_SEMANTIC_ROLE",
+      "newId": "86649b9b-96e1-4abb-903a-5ec30f0af526",
+      "name": "Interactable Role"
+    },
+    "elements": [
+      {
+        "id": "81db6383-e99b-4aef-b05e-c33ed0fb429b",
+        "domSnippet": "<li data-target=\"#jpmc-carousel-1642791491015\" data-slide-to=\"0\" class=\"active\" tabindex=\"0\" aria-live=\"assertive\"><span class=\"sr-only\">Viewing slide 1 of 5</span></li>",
+        "componentId": "0d627771",
+        "index": "S1",
+        "selector": "li[data-slide-to=\"\\30 \"]",
+        "pageUrl": "https://www.jpmorgan.com/global"
+      }
+    ],
+    "firstSeenTime": 1642791955846,
+    "lastSeenTime": 1642791955846,
+    "additionalInformation": {},
+    "summary": "Screen readers do not interpret the element as interactable.",
+    "description": "**Cause:** Missing or incorrect semantics prevent screen readers from interpreting an element as interactable.  \n**Effect:** Screen reader either does not navigate to the element or navigates to it but does not correctly convey its function to the user.  \n**Suggested Solutions:**\n* Change the element's tag to correctly reflect its type, ie: <*button*>, <*a*> or <*input*><*/input*>  \n* Add attributes (ARIA) to indicate the element's type and/or potential functionalities.  \n",
+    "severity": {
+      "id": "CRITICAL",
+      "name": "Critical",
+      "newId": "3c68eb41-9227-481d-8eec-9dc8956b19c4"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.3.1",
+        "description": "1.3.1 Info and Relationships  (Level A)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html"
+      },
+      {
+        "id": "WCAG-A"
+      },
+      {
+        "id": "WCAG2.0"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/interactable-role",
+    "signature": "49115f53"
+  },
+  {
+    "id": "c111415f-4af3-4797-8b4f-32aa353ea40a",
+    "index": "I2",
+    "hidden": false,
+    "validation": {
+      "id": "e8eed59d-5271-4e52-81df-3f775fbb3eaf"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "WRONG_SEMANTIC_ROLE",
+      "newId": "86649b9b-96e1-4abb-903a-5ec30f0af526",
+      "name": "Interactable Role"
+    },
+    "elements": [
+      {
+        "id": "5efb28c9-6d9b-4476-b409-378d0745abfc",
+        "domSnippet": "<li data-target=\"#jpmc-carousel-1642791491015\" data-slide-to=\"1\" tabindex=\"0\"><span class=\"sr-only\">Go to slide 2 of 5</span></li>",
+        "componentId": "00d7092e",
+        "index": "S2",
+        "selector": "li[data-slide-to=\"\\31 \"]",
+        "pageUrl": "https://www.jpmorgan.com/global"
+      }
+    ],
+    "firstSeenTime": 1642791955846,
+    "lastSeenTime": 1642791955846,
+    "additionalInformation": {},
+    "summary": "Screen readers do not interpret the element as interactable.",
+    "description": "**Cause:** Missing or incorrect semantics prevent screen readers from interpreting an element as interactable.  \n**Effect:** Screen reader either does not navigate to the element or navigates to it but does not correctly convey its function to the user.  \n**Suggested Solutions:**\n* Change the element's tag to correctly reflect its type, ie: <*button*>, <*a*> or <*input*><*/input*>  \n* Add attributes (ARIA) to indicate the element's type and/or potential functionalities.  \n",
+    "severity": {
+      "id": "CRITICAL",
+      "name": "Critical",
+      "newId": "3c68eb41-9227-481d-8eec-9dc8956b19c4"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.3.1",
+        "description": "1.3.1 Info and Relationships  (Level A)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html"
+      },
+      {
+        "id": "WCAG-A"
+      },
+      {
+        "id": "WCAG2.0"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/interactable-role",
+    "signature": "804b55ce"
+  },
+  {
+    "id": "ca509640-901d-49c0-9df7-84505083cece",
+    "index": "I3",
+    "hidden": false,
+    "validation": {
+      "id": "cf9cf6b5-bfa3-4d44-a237-5ad6b426fd8f"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "WRONG_SEMANTIC_ROLE",
+      "newId": "86649b9b-96e1-4abb-903a-5ec30f0af526",
+      "name": "Interactable Role"
+    },
+    "elements": [
+      {
+        "id": "0a09e2e2-8245-4e5c-bc68-af153dba16a8",
+        "domSnippet": "<li data-target=\"#jpmc-carousel-1642791491015\" data-slide-to=\"2\" tabindex=\"0\"><span class=\"sr-only\">Go to slide 3 of 5</span></li>",
+        "componentId": "00d7092e",
+        "index": "S3",
+        "selector": "li[data-slide-to=\"\\32 \"]",
+        "pageUrl": "https://www.jpmorgan.com/global"
+      }
+    ],
+    "firstSeenTime": 1642791955846,
+    "lastSeenTime": 1642791955846,
+    "additionalInformation": {},
+    "summary": "Screen readers do not interpret the element as interactable.",
+    "description": "**Cause:** Missing or incorrect semantics prevent screen readers from interpreting an element as interactable.  \n**Effect:** Screen reader either does not navigate to the element or navigates to it but does not correctly convey its function to the user.  \n**Suggested Solutions:**\n* Change the element's tag to correctly reflect its type, ie: <*button*>, <*a*> or <*input*><*/input*>  \n* Add attributes (ARIA) to indicate the element's type and/or potential functionalities.  \n",
+    "severity": {
+      "id": "CRITICAL",
+      "name": "Critical",
+      "newId": "3c68eb41-9227-481d-8eec-9dc8956b19c4"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.3.1",
+        "description": "1.3.1 Info and Relationships  (Level A)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html"
+      },
+      {
+        "id": "WCAG-A"
+      },
+      {
+        "id": "WCAG2.0"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/interactable-role",
+    "signature": "126fc35d"
+  },
+  {
+    "id": "c4da6f99-9ad6-486f-a83c-87475ca12bdb",
+    "index": "I4",
+    "hidden": false,
+    "validation": {
+      "id": "5d89e676-9a7b-4186-8483-d4fb96637365"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "WRONG_SEMANTIC_ROLE",
+      "newId": "86649b9b-96e1-4abb-903a-5ec30f0af526",
+      "name": "Interactable Role"
+    },
+    "elements": [
+      {
+        "id": "5cf9cb80-5d54-44c4-bfc8-2bd26f5e51ad",
+        "domSnippet": "<li data-target=\"#jpmc-carousel-1642791491015\" data-slide-to=\"3\" tabindex=\"0\"><span class=\"sr-only\">Go to slide 4 of 5</span></li>",
+        "componentId": "00d7092e",
+        "index": "S4",
+        "selector": "li[data-slide-to=\"\\33 \"]",
+        "pageUrl": "https://www.jpmorgan.com/global"
+      }
+    ],
+    "firstSeenTime": 1642791955846,
+    "lastSeenTime": 1642791955846,
+    "additionalInformation": {},
+    "summary": "Screen readers do not interpret the element as interactable.",
+    "description": "**Cause:** Missing or incorrect semantics prevent screen readers from interpreting an element as interactable.  \n**Effect:** Screen reader either does not navigate to the element or navigates to it but does not correctly convey its function to the user.  \n**Suggested Solutions:**\n* Change the element's tag to correctly reflect its type, ie: <*button*>, <*a*> or <*input*><*/input*>  \n* Add attributes (ARIA) to indicate the element's type and/or potential functionalities.  \n",
+    "severity": {
+      "id": "CRITICAL",
+      "name": "Critical",
+      "newId": "3c68eb41-9227-481d-8eec-9dc8956b19c4"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.3.1",
+        "description": "1.3.1 Info and Relationships  (Level A)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html"
+      },
+      {
+        "id": "WCAG-A"
+      },
+      {
+        "id": "WCAG2.0"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/interactable-role",
+    "signature": "c7fd3f40"
+  },
+  {
+    "id": "6dd2e8d6-d6c8-4384-9ea0-5e97cda1569d",
+    "index": "I5",
+    "hidden": false,
+    "validation": {
+      "id": "8db84023-1bd7-4222-b71b-05e3d94aeaa2"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "WRONG_SEMANTIC_ROLE",
+      "newId": "86649b9b-96e1-4abb-903a-5ec30f0af526",
+      "name": "Interactable Role"
+    },
+    "elements": [
+      {
+        "id": "83566dfe-2a8d-4c82-9607-06d2bfbcad17",
+        "domSnippet": "<li data-target=\"#jpmc-carousel-1642791491015\" data-slide-to=\"4\" tabindex=\"0\"><span class=\"sr-only\">Go to slide 5 of 5</span></li>",
+        "componentId": "00d7092e",
+        "index": "S5",
+        "selector": "li[data-slide-to=\"\\34 \"]",
+        "pageUrl": "https://www.jpmorgan.com/global"
+      }
+    ],
+    "firstSeenTime": 1642791955846,
+    "lastSeenTime": 1642791955846,
+    "additionalInformation": {},
+    "summary": "Screen readers do not interpret the element as interactable.",
+    "description": "**Cause:** Missing or incorrect semantics prevent screen readers from interpreting an element as interactable.  \n**Effect:** Screen reader either does not navigate to the element or navigates to it but does not correctly convey its function to the user.  \n**Suggested Solutions:**\n* Change the element's tag to correctly reflect its type, ie: <*button*>, <*a*> or <*input*><*/input*>  \n* Add attributes (ARIA) to indicate the element's type and/or potential functionalities.  \n",
+    "severity": {
+      "id": "CRITICAL",
+      "name": "Critical",
+      "newId": "3c68eb41-9227-481d-8eec-9dc8956b19c4"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.3.1",
+        "description": "1.3.1 Info and Relationships  (Level A)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html"
+      },
+      {
+        "id": "WCAG-A"
+      },
+      {
+        "id": "WCAG2.0"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/interactable-role",
+    "signature": "9fc1ee97"
+  },
+  {
+    "id": "26501da4-fa25-4b1b-9fa7-1b10eef51477",
+    "index": "I6",
+    "hidden": false,
+    "validation": {
+      "id": "206e5d2f-2c77-4012-b8c0-5f1d0a167874"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "WRONG_SEMANTIC_ROLE",
+      "newId": "86649b9b-96e1-4abb-903a-5ec30f0af526",
+      "name": "Interactable Role"
+    },
+    "elements": [
+      {
+        "id": "ff2866d1-0501-4e73-a409-73efaccc2f27",
+        "domSnippet": "<a target=\"_self\" class=\"primary link   \"><span>Visit Our Websites From Around The World</span>\n                                    \n                                </a>",
+        "componentId": "0bea822a",
+        "index": "S6",
+        "selector": ".copy-wrap > .content > .cta > .link.primary[target=\"_self\"]",
+        "pageUrl": "https://www.jpmorgan.com/global"
+      }
+    ],
+    "firstSeenTime": 1642791955846,
+    "lastSeenTime": 1642791955846,
+    "additionalInformation": {},
+    "summary": "Screen readers do not interpret the element as interactable.",
+    "description": "**Cause:** Missing or incorrect semantics prevent screen readers from interpreting an element as interactable.  \n**Effect:** Screen reader either does not navigate to the element or navigates to it but does not correctly convey its function to the user.  \n**Suggested Solutions:**\n* Change the element's tag to correctly reflect its type, ie: <*button*>, <*a*> or <*input*><*/input*>  \n* Add attributes (ARIA) to indicate the element's type and/or potential functionalities.  \n",
+    "severity": {
+      "id": "CRITICAL",
+      "name": "Critical",
+      "newId": "3c68eb41-9227-481d-8eec-9dc8956b19c4"
+    },
+    "tags": [
+      {
+        "id": "WCAG-1.3.1",
+        "description": "1.3.1 Info and Relationships  (Level A)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html"
+      },
+      {
+        "id": "WCAG-A"
+      },
+      {
+        "id": "WCAG2.0"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/interactable-role",
+    "signature": "f2648372"
+  },
+  {
+    "id": "1f9b897e-6590-48fb-9e1b-1d755a5c6ec7",
+    "index": "I7",
+    "hidden": false,
+    "validation": {
+      "id": "f9a0f322-5d4a-4106-ad48-b9835c28758f"
+    },
+    "skipIssue": false,
+    "type": {
+      "id": "NOT_FOCUSABLE",
+      "newId": "724b3853-33d3-47b9-80bd-2401abcd5ad4",
+      "name": "Keyboard Accessible"
+    },
+    "elements": [
+      {
+        "id": "ff2866d1-0501-4e73-a409-73efaccc2f27",
+        "domSnippet": "<a target=\"_self\" class=\"primary link   \"><span>Visit Our Websites From Around The World</span>\n                                    \n                                </a>",
+        "componentId": "0bea822a",
+        "index": "S6",
+        "selector": ".copy-wrap > .content > .cta > .link.primary[target=\"_self\"]",
+        "pageUrl": "https://www.jpmorgan.com/global"
+      }
+    ],
+    "firstSeenTime": 1642791955846,
+    "lastSeenTime": 1642791955846,
+    "additionalInformation": {},
+    "summary": "Keyboard-only users do not interpret the element as interactable.",
+    "description": "**Cause:** Missing or incorrect semantics prevent the keyboard User-Agent from interpreting an element as interactable.  \n**Effect:** Interface interaction is limited for keyboard-only users.  \n**Suggested Solutions:**\n* (Recommended) Add an element that better reflects the element's purpose. Interactive elements do not need any additions because they are focusable by nature. \n* Add a *tabindex* attribute with the value of “0” to the element.  \n",
+    "severity": {
+      "id": "CRITICAL",
+      "name": "Critical",
+      "newId": "3c68eb41-9227-481d-8eec-9dc8956b19c4"
+    },
+    "tags": [
+      {
+        "id": "WCAG-2.1.1",
+        "description": "2.1.1 Keyboard  (Level A)",
+        "link": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html"
+      },
+      {
+        "id": "WCAG-A"
+      },
+      {
+        "id": "WCAG2.0"
+      }
+    ],
+    "knowledgeBaseLink": "https://knowledge.evinced.com/system-validations/keyboard-accessible",
+    "signature": "390910b1"
+  }
+]

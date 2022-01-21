@@ -8,7 +8,8 @@ table {
 	padding: 8px;
 	font-size: 10px;
 	cursor: pointer;
-	width: 100%;
+	width: auto;
+	margin: 0 auto;
 }
 
 td, th {
